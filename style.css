@@ -131,3 +131,20 @@ nav > ul > li > a {
 }
 
 /* Quote */
+.quote {
+    padding: 100px 350px;
+}
+
+.quote blockquote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote p {
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: 600;
+    text-align: right;
+}
