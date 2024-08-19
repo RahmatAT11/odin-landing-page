@@ -1,3 +1,7 @@
+:root {
+    font-family: roboto, sans-serif;
+}
+
 header,
 footer,
 .content,
@@ -13,4 +17,41 @@ footer {
 
 .quote {
     background-color: #e5e7eb;
+}
+
+/* Header Nav Section */
+nav,
+nav > ul {
+    display: flex;
+}
+
+nav {
+    justify-content: space-between;
+
+    padding: 16px 0;
+}
+
+nav > ul {
+    align-items: center;
+    gap: 16px;
+}
+
+nav > ul > li {
+    list-style-type: none;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+}
+
+.header-link-text,
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
 }
