@@ -162,3 +162,9 @@ nav > ul > li > a {
     height: 200px;
     width: auto;
 }
+
+/* Footer */
+.footer-text {
+    text-align: center;
+    padding: 32pX;
+}
