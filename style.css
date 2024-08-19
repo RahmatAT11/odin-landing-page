@@ -53,5 +53,36 @@ nav > ul > li > a {
 .logo {
     font-size: 24px;
     color: #f9faf8;
-    font-weight: bolder;
+}
+
+/* hero */
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+    gap: 50px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    line-height: 1.15;
+}
+
+.hero-main-content {
+    flex: 1 1 400px;
+}
+
+.hero-image-content {
+    flex: 1 1 500px
+}
+
+.btn {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 8px 32px;
+    font-weight: 600;
+    border-radius: 10px;
 }
