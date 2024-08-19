@@ -1,0 +1,16 @@
+header,
+footer,
+.content,
+.quote, 
+.call-to-action {
+    padding: 0 250px;
+}
+
+header,
+footer {
+    background-color: #1f2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
