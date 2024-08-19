@@ -148,3 +148,17 @@ nav > ul > li > a {
     font-weight: 600;
     text-align: right;
 }
+
+/* Call to action */
+.call-to-action {
+    padding: 0;
+    margin: 100px 250px;
+    background-color: #3882f6;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 200px;
+    width: auto;
+}
