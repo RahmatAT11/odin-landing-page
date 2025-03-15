@@ -150,3 +150,26 @@ main {
 }
 
 /* Quote Content */
+.quote-content {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 64px 424px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-content p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-content #name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 16px;
+    align-self: flex-end;
+    font-style: normal;
+}
