@@ -76,6 +76,13 @@ nav ul li a {
 .hero-content button {
     flex: 0 0 auto;
     align-self: flex-start;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 8px 32px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid #3882f6;
 }
 
 .hero-image {
