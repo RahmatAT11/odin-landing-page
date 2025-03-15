@@ -94,10 +94,9 @@ nav ul li a {
     background-color: darkgrey;
 }
 
+/* Main Content and Quote Content */
 /* Main Content */
 main {
-    padding: 0 256px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -105,6 +104,8 @@ main {
 
 .main-content {
     padding-bottom: 128px;
+    padding-left: 256px;
+    padding-right: 256px;
 }
 
 .main-content h2 {
@@ -147,3 +148,5 @@ main {
 .main-content li p {
     text-align: center;
 }
+
+/* Quote Content */
