@@ -10,6 +10,7 @@
 
 /* Header and Hero Section */
 
+/* Navigation Section */
 header {
     background-color: #1f2937;
     padding: 0 128px;
@@ -38,4 +39,45 @@ nav ul li a {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bolder;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    padding: 48px 0;
+}
+
+.hero-content {
+    flex: 4 1 auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 40%;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 300;
+}
+
+.hero-content button {
+    flex: 0 0 auto;
+    align-self: flex-start;
+}
+
+.hero-image {
+    flex: 6 1 auto;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgrey;
 }
