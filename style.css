@@ -173,3 +173,52 @@ main {
     align-self: flex-end;
     font-style: normal;
 }
+
+/* Call to action */
+section {
+    padding: 96px 256px;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    color: #f9faf8;
+
+    padding: 64px 128px;
+
+    display: flex;
+
+    border-radius: 10px;
+}
+
+.call-to-action-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    flex: 7 1 auto;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    flex: 3 1 auto;
+}
+
+.button-wrapper button {
+    flex: 0 0 auto;
+    align-self: flex-end;
+    
+    background-color: #3882f6;
+    color: #f9faf8;
+    
+    font-size: 18px;
+    font-weight: 600;
+    
+    padding: 8px 32px;
+
+    border-radius: 10px;
+    border: 3px solid #f9faf8;
+}
