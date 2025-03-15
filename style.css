@@ -49,6 +49,7 @@ nav ul li a {
 /* Hero Section */
 .hero {
     display: flex;
+    gap: 64px;
     padding: 48px 0;
 }
 
