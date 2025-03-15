@@ -26,20 +26,25 @@ nav ul li {
     text-align: center;
 }
 
-nav ul li a {
-    display: block;
-    text-decoration: none;
-    color: #fff;
-    padding: 16px 0;
-}
-
 #logo {
     margin-right: auto;
     flex: 0 0 auto;
+}
+
+#logo a {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bolder;
 }
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #e5e7eb;
+    padding: 16px 0;
+    font-size: 18px;
+}
+
 
 /* Hero Section */
 .hero {
